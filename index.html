@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet house</title>
+    <!-- tailwind cdn -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- daisyui -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <style>       
+.font-sora{
+  font-family: "Sora", serif;
+  font-weight:400;
+}
+.font-adlam {
+  font-family: "ADLaM Display", serif;
+  font-weight: 400;
+  
+}
+
+    </style>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: '#da373d',
+              'background-1': '#FFF9F4',
+              'background-2': '#FFDC26',
+  
+            }
+          }
+        }
+      }
+    </script>
+</head>
+<body class="font-sora">
+<header>
+  <nav class="bg-background-1 mb-20">
+    <div class="flex justify-between bg-center">
+      <div class="flex">
+        <img src="./c1-assets/logo-header.png" alt="">
+        <h1 class="mx-5">Browse<span class="background-2">4</span>Pets</h1>
+      </div>
+      <div class="flex mx-5">
+        <h1 class="mx-5">Find a pet</h1>
+        <h1 class="mx-5">Breeds</h1>
+        <h1>Contact us</h1>
+      </div>
+     <div class="flex mx-6">
+      <div><i class="fa-solid fa-bell"></i></div>
+      <div><i class="fa-solid fa-magnifying-glass"></i></div>
+      <button class="btn border-[#FFDC26] mx-6">Login</button>
+      <button class="btn background-2">Register</button>
+     </div>
+    </div>
+  </nav>
+</header>
+<main class="mb-20">
+  <section>
+   
+    <div><img src="./c1-assets/cat-big.png" alt=""> 
+       <div class="absolute start-0 top-0">
+     <h1 class="font-adlam text-4xl mb-2">Pamper Your Pet, Because They Deserve the Bes</h1>
+      <p class="mb-2">Discover a world of treats, toys, and essentials handpicked for your furry friends. Shop now and make tails wag with joy!</p>
+      <button class="btn background-2">Find a pet</button>
+</div>
+</div>
+  </section>
+
+</main>
+<footer>
+
+</footer>
+    
+</body>
+</html>
