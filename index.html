@@ -31,6 +31,7 @@
               'background-2': '#FFDC26',
               'background-3': '#F9DF8A',
               'background-4': '#FFFFFF',
+              'background-5': '#F9DF8A',
             }
           }
         }
@@ -43,19 +44,27 @@
     <div class="flex lg:block justify-between">
       <div class="flex justify-between">
       <div class="flex">
-        <img src="./c1-assets/logo-header.png" alt="">
-        <h1 class="mx-5 hidden lg:inline-block">Browse<span class="background-2">4</span>Pets</h1>
+        <img class="my-2" src="./c1-assets/logo-header.png" alt="">
+        <h1 class="mx-5 hidden lg:inline-block my-6">Browse<span class="background-2">4</span>Pets</h1>
       </div>
       <div class="lg:flex hidden mx-5">
-        <h1 class="mx-5">Find a pet</h1>
-        <h1 class="mx-5">Breeds</h1>
-        <h1>Contact us</h1>
+        <h1 class="mx-5 my-6">Find a pet</h1>
+        <h1 class="mx-5 my-6">Breeds</h1>
+        <h1 class="my-6">Contact us</h1>
       </div>
      <div class="lg:flex hidden mx-6">
-      <div><i class="fa-solid fa-bell"></i></div>
-      <div><i class="fa-solid fa-magnifying-glass"></i></div>
-      <button class="btn border-[#FFDC26] mx-6">Login</button>
-      <button class="bg-background-2 px-3 rounded-md">Register</button>
+      <div  class="my-6">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M14.857 17.082a23.848 23.848 0 0 0 5.454-1.31A8.967 8.967 0 0 1 18 9.75V9A6 
+        6 0 0 0 6 9v.75a8.967 8.967 0 0 1-2.312 6.022c1.733.64 3.56 1.085 5.455 1.31m5.714 0a24.255 24.255 0 0 1-5.714 0m5.714 0a3 3 0 1 1-5.714 0" />
+      </svg>
+      </div>
+      <div class="my-6 mx-2"><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+      </svg>
+      </div>
+      <button class="btn border-[#FFDC26] my-4 mx-6">Login</button>
+      <button class="bg-background-2 px-3 my-4 rounded-md">Register</button>
      </div>
     </div>
     <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -75,7 +84,7 @@
   </div>
   </nav>
 </header>
-<main class="mx-8 ">
+<main class="lg:mx-8 mx-4 ">
   <!-- cat section -->
   <section class="mb-16 lg:mb-24 px-8 ">
    
@@ -95,7 +104,7 @@
     <div>
       <h1 class="mb-10 text-3xl text-center">Browse By Categories</h1>
     </div>
-    <div class=" grid grid-cols-2  lg:grid-cols-6 lg:gap-8 gap-2 px-8 mb-12  ">
+    <div class=" grid grid-cols-2  lg:grid-cols-6 lg:gap-8 gap-4 px-8 mb-12  ">
   <div class="bg-background-3 h-64 p-6 w-full  rounded-xl text-center">
         <div>
           <img class="p-3 bg-white rounded-full mx-auto mt-3" src="./c1-assets/dog-cartoon.png" alt="">
@@ -116,7 +125,8 @@
         </div>    
   <div class="bg-background-3 h-64 p-6 w-full red rounded-xl text-center">
     <div>
-      <img class="p-3 bg-white rounded-full mx-auto mt-3" src="./c1-assets/cat-cartoon.png" alt="">
+      <div class="p-2 mx-auto rounded-full size-20 flex justify-center items-center mt-3 bg-white">
+        <img src="./c1-assets/cat-cartoon.png" alt=""></div>
       <div class="mt-8">
         <h2>Cat</h2>
       <h3>3 items</h3>
@@ -125,7 +135,9 @@
     </div>
   <div class="bg-background-3 h-64 p-6 w-full red rounded-xl text-center">
     <div>
-      <img class="p-3 bg-white rounded-full mx-auto mt-3" src="./c1-assets/bird-cartoon.png" alt="">
+     <div class="p-2 mx-auto rounded-full size-20 flex justify-center items-center  mt-3 bg-white">
+      <img src="./c1-assets/bird-cartoon.png" alt="">
+    </div>
       <div class="mt-8">
         <h2>Bird</h2>
       <h3>3 items</h3>
@@ -134,7 +146,7 @@
     </div>
   <div class="bg-background-3 h-64 p-6 w-full red rounded-xl text-center">
     <div>
-      <img class="p-3 bg-white rounded-full mx-auto mt-3" src="./c1-assets/mouse-cartoon.png" alt="">
+      <img class="p-5 bg-white rounded-full mx-auto mt-3" src="./c1-assets/mouse-cartoon.png" alt="">
      <div class="mt-8">
       <h2>Mouse</h2>
       <h3>3 items</h3>
@@ -143,7 +155,10 @@
     </div>
   <div class="bg-background-3 h-64 p-6 w-full red rounded-xl text-center">
     <div>
-      <img class="p-3 bg-white rounded-full mx-auto mt-3" src="./c1-assets/rabbit-cartoon.png" alt="">
+      <div>
+        <div class="p-2 mx-auto rounded-full size-20 flex justify-center items-center  mt-3 bg-white">
+        <img src="./c1-assets/rabbit-cartoon.png" alt="">
+      </div>
       <div class="mt-8">
         <h2>Rabbit</h2>
       <h3>3 items</h3>
@@ -152,37 +167,54 @@
     </div>
   </div>
    </section>
+
+   <!-- Trending Pet Products -->
+  <section>
+    <div>
+      <div class="w-[100%] h-96 bg-background-5 rounded-lg">
+       <div class="mt-6 ml-12">
+       <h1 class="mb-2 text-2xl">T-Shirt For Dogs</h1>
+       <p class="mb-2">Discover a world of treats,toys,and <br>
+          essentials handpicked for</p>
+       <button class="bg-white px-1 py-2 rounded-lg">Shop Now</button>
+       <div>
+         <img src="./c1-assets/cute-pet-small.png" alt="">
+       </div>
+      </div>
+     </div>
+
+   </div>
+  </section>
    <!-- everyday low price -->
     <section>
-      <div class="lg:flex">
-        <div>
-          <div class=" lg:w-[80%] bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-2xl ">
+      <div class="lg:flex  gap-8 ">
+        
+          <div class=" lg:w-[80%] bg-gradient-to-r from-[#F8CCFB] to-[#ACD2FD] rounded-2xl mb-6">
             <div class="grid grid-cols-2">
-            <div class="my-36 ml-10">
-            <h4 class="text-lg">Under Price</h4>
+            <div class="lg:my-36 lg:ml-10 my-10 ml-4">
+            <h4 class="lg:text-lg lg:block hidden">Under Price</h4>
             <h1 class="text-2xl">Pet Grooming Mitt</h1>
-            <h3 class="text-white">(Easy Hair Removal)</h3>
+            <h3 class=" lg:text-white lg:block hidden">(Easy Hair Removal)</h3>
             <h1 class="text-5xl">$7.99</h1>
           </div>
           <div>
-            <img src="./c1-assets/cute-dog-mid.png" alt="">
+            <img class=" lg:mt-2 mt-16" src="./c1-assets/cute-dog-mid.png" alt="">
           </div>
         </div>
         </div>
-        </div>
-        <div>
-          <div class="h-96 lg:w-[70%] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-2xl">
+        
+        
+          <div class=" lg:w-[70%] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-2xl mb-6">
             <div class="grid grid-cols-2">
-              <div>
+              <div class=" lg:mt-10 lg:ml-10 mt-6 ml-6">
               <h3 class="text-3xl">T-Shirt for Dogs</h3>
               <h1 class="text-5xl text-[#FFDC26]">$7.99</h1>
             </div>
             <div>
-              <img class="mt-28" src="./c1-assets/cute-pet-mid.png" alt="">
+              <img class="lg:mt-28 mt-16" src="./c1-assets/cute-pet-mid.png" alt="">
             </div>
            </div>
-          </div>
-        </div>
+          </div>      
       </div>
     </section> 
 
