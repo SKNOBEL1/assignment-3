@@ -17,6 +17,8 @@
  <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
+<!-- icon -->
+<script src="https://kit.fontawesome.com/80f6520d6b.js" crossorigin="anonymous"></script>
     <style>       
  .font-sora{
   font-family: "Sora", serif;
@@ -39,6 +41,7 @@
               'background-3': '#F9DF8A',
               'background-4': '#FFFFFF',
               'background-5': '#F9DF8A',
+              'background-6': 'rgba(255, 220, 38, 0.5)',
             }
           }
         }
@@ -48,11 +51,11 @@
 <body class="font-sora">
 <header>
   <nav class="bg-background-1 mb-20">
-    <div class="flex lg:block justify-between">
+    <div class="flex lg:block justify-between mx-8">
       <div class="flex justify-between">
       <div class="flex">
         <img class="my-2" src="./c1-assets/logo-header.png" alt="">
-        <h1 class="mx-5 hidden lg:inline-block my-6">Browse<span class="background-2">4</span>Pets</h1>
+        <h1 class="mx-5 hidden lg:inline-block text-2xl my-6">Browse<span class="text-background-2">4</span>Pets</h1>
       </div>
       <div class="lg:flex hidden mx-5">
         <h1 class="mx-5 my-6">Find a pet</h1>
@@ -115,7 +118,7 @@
         <div>
           <img class="p-3 bg-white rounded-full mx-auto mt-3" src="./c1-assets/dog-cartoon.png" alt="">
           <div class="mt-8">
-            <h2>Dog</h2>
+            <h2 class="font-adlam">Dog</h2>
           <h3>3 items</h3>
           </div>
         </div>
@@ -124,7 +127,7 @@
         <div>
           <img class="p-3 bg-white rounded-full mx-auto mt-3" src="./c1-assets/fish-cartoon.png" alt="">
          <div class="mt-8">
-          <h2>Fish</h2>
+          <h2 class="font-adlam">Fish</h2>
           <h3>3 items</h3>
          </div>
         </div>
@@ -134,7 +137,7 @@
       <div class="p-2 mx-auto rounded-full size-20 flex justify-center items-center mt-3 bg-white">
         <img src="./c1-assets/cat-cartoon.png" alt=""></div>
       <div class="mt-8">
-        <h2>Cat</h2>
+        <h2 class="font-adlam">Cat</h2>
       <h3>3 items</h3>
       </div>
     </div>
@@ -145,7 +148,7 @@
       <img src="./c1-assets/bird-cartoon.png" alt="">
     </div>
       <div class="mt-8">
-        <h2>Bird</h2>
+        <h2 class="font-adlam">Bird</h2>
       <h3>3 items</h3>
       </div>
     </div>
@@ -154,7 +157,7 @@
     <div>
       <img class="p-5 bg-white rounded-full mx-auto mt-3" src="./c1-assets/mouse-cartoon.png" alt="">
      <div class="mt-8">
-      <h2>Mouse</h2>
+      <h2 class="font-adlam">Mouse</h2>
       <h3>3 items</h3>
      </div>
     </div>
@@ -166,7 +169,7 @@
         <img src="./c1-assets/rabbit-cartoon.png" alt="">
       </div>
       <div class="mt-8">
-        <h2>Rabbit</h2>
+        <h2 class="font-adlam">Rabbit</h2>
       <h3>3 items</h3>
       </div>
     </div>
@@ -179,7 +182,7 @@
     <h1 class="font-adlam text-3xl lg:px-14 px-5  py-12">Trending Pet Products</h1>
     <div class="lg:flex w-[94%] mx-auto gap-4">
     <div>
-      <div class="w-[100%] pt-6  lg:pt-8 lg:w-[424px] mb-4  bg-background-5 rounded-lg">
+      <div class="w-[100%] pt-6 lg:pt-8 lg:w-[424px] mb-4  bg-background-5 rounded-lg">
        <div class="ml-8 lg:ml-12">
        <h1 class="mb-2 text-4xl font-adlam">T-Shirt For Dogs</h1>
        <p class="mb-2">Discover a world of treats,toys,and <br>
@@ -406,9 +409,9 @@
             <div class="grid grid-cols-2">
             <div class="lg:my-36 lg:ml-10 my-10 ml-4">
             <h4 class="lg:text-lg lg:block hidden">Under Price</h4>
-            <h1 class="text-2xl">Pet Grooming Mitt</h1>
+            <h1 class="text-2xl font-adlam">Pet Grooming Mitt</h1>
             <h3 class=" lg:text-white lg:block hidden">(Easy Hair Removal)</h3>
-            <h1 class="text-5xl">$7.99</h1>
+            <h1 class="text-5xl font-adlam">$7.99</h1>
           </div>
           <div>
             <img class=" lg:mt-2 mt-16" src="./c1-assets/cute-dog-mid.png" alt="">
@@ -420,8 +423,8 @@
           <div class=" lg:w-[70%] bg-gradient-to-r from-[#FFF9F4] to-[#F9DF8A] rounded-2xl mb-6">
             <div class="grid grid-cols-2">
               <div class=" lg:mt-10 lg:ml-10 mt-6 ml-6">
-              <h3 class="text-3xl">T-Shirt for Dogs</h3>
-              <h1 class="text-5xl text-[#FFDC26]">$7.99</h1>
+              <h3 class="text-3xl font-adlam">T-Shirt for Dogs</h3>
+              <h1 class="text-5xl text-[#FFDC26] font-adlam">$7.99</h1>
             </div>
             <div>
               <img class="lg:mt-28 mt-16" src="./c1-assets/cute-pet-mid.png" alt="">
@@ -433,7 +436,38 @@
 
 </main>
 <footer>
+<div class="bg-background-6">
+  <div class="ml-6 lg:grid grid-cols-3">
+  <div class="pt-10">
+    <div class="flex gap-2 ">
+      <div >
+        <img src="./c1-assets/logo-footer.png" alt="">
+      </div>
+      <div>
+        <h1 class="mt-4 text-2xl">Browse<span class="text-background-2">4</span>Pets</h1>
+      </div> 
+    </div>
+    <p class="mb-16 mt-4">Discover a world of treats, toys, and essentials
+      <br>
+      handpicked for your furry friends</p>
+  </div>
 
+  <div class="lg:pt-16">
+    <h3 class="mb-5">Find a pet</h3>
+    <h3 class="mb-5">Breeds</h3>
+    <h3 class="mb-16">Contact us</h3>
+  </div>
+   <div class="lg:pt-32 pb-6">
+    <h1>Follow Us</h1>
+    <div class="flex gap-4">
+      <div><i class="fa-brands fa-facebook"></i></div>
+    <div><i class="fa-brands fa-instagram"></i></div>
+    <div><i class="fa-brands fa-linkedin"></i></div>
+    <div><i class="fa-brands fa-youtube"></i></div>
+    </div>
+   </div>
+  </div>
+</div>
 </footer>
     
 </body>
